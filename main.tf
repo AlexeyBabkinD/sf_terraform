@@ -10,8 +10,8 @@ terraform {
     bucket     = "tf-state-bucket-alexey"
     region     = "ru-central1"
     key        = "terrastate/sf_alexey.tfstate"
-    access_key = "YCAJEm1uVb2CZ5S4wU_5I9GO_"
-    secret_key = "YCOToW5AXg3U74L_092NGp3Mo0ZVB5Rg5D9zJmwy"
+    access_key = "<my_bucket_key_id>"
+    secret_key = "<my_bucket_secret_key>"
 
     skip_region_validation      = true
     skip_credentials_validation = true
